@@ -1,4 +1,4 @@
 export default {
-  "**/*.{js,ts,tsx}": ["eslint --fix"],
+  "**/*.{js,ts,tsx,cjs}": ["eslint --fix --cache"],
   "**/*": "prettier --write --ignore-unknown",
 };
